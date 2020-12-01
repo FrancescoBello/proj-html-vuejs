@@ -8,6 +8,7 @@ var app = new Vue ({
       "Takeout",
       "Bulletin",
       "Reservation",
+      "f07a",
     ],
   },
 });
