@@ -3,8 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-*/
+
 .up{
   text-transform: uppercase;
 }
@@ -12,6 +11,7 @@
 .container {
     max-width: 1280px;
     margin: auto;
+    height: 100%
 }
 
 .container::after {
@@ -22,14 +22,42 @@
 body{
     font-family: sans-serif;
 }
+header{
+  height: 600px;
+}
 header .right{
-background-image: linear-gradient(180deg, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0) 36%),url('file:///Users/francescobello/Desktop/Bello%20Francesco/proj-html-vuejs/img/slider52x.jpg');
+background-image: linear-gradient(180deg, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0) 36%),url("img/slider52x.jpg");
 background-repeat: no-repeat;
 background-size: cover;
   height: 600px;
   float: right;
   width: 60%;
 }
+.navbar{
+  display: inline-block;
+  float: right;
+  margin-right: 45px;
+  margin-top: 35px;
+
+}
+.navbar li{
+   display:inline-block;
+     font-size: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     vertical-align: middle;
+}
+.navbar li a {
+  text-decoration: none;
+  color: #bcbcbc;
+}
+.navbar li a:hover{
+  color: white;
+}
+.navbar li a:active{
+  color: white;
+}
+
 header .left{
   background-color: black;
     height: 600px;
@@ -62,13 +90,19 @@ header .left{
   margin-left: 120px;
     margin-top: 40px;
 }
+main{
+
+}
+
 .mainsx{
   float: left;
   width: 50%;
+    height: 850px;
 }
 .maindx{
   float: right;
   width: 50%;
+  height: 850px;
 
 }
 .mainsx p{
@@ -93,23 +127,31 @@ header .left{
   margin-top: 120px;
   margin-right: 10px;
 }
+
 .box1{
   width: 300px;
-  margin-left: 15px;
+
+  margin-left: 140px;
   margin-right: 15px;
-  float: left;
+  display: inline-block;
 }
 .box2{
   width: 300px;
+
   margin-left: 15px;
   margin-right: 15px;
-  float: left;
+  display: inline-block;
 }
 .box3{
   width: 300px;
+
   margin-left: 15px;
   margin-right: 15px;
-  float: left;
+  display: inline-block;
+}
+.sushi{
+  margin-left: 85px;
+  margin-bottom: 40px;
 }
 .pbox{
   margin-top: 30px;
@@ -119,18 +161,19 @@ header .left{
     background-color: white;
     color: black;
     padding: 10px 30px;
-    margin-left: 120px;
-      margin-top: 40px;
+    margin-top: 40px;
+    margin-left: 30px;
 }
 
 
 
-.description{
-  background-image: url("file:///Users/francescobello/Desktop/Bello%20Francesco/proj-html-vuejs/img/slider32x.jpg");
+/*.description{
+  background-image: url("img/slider32x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   float: left;
-}
+  height: 500px;
+}*/
 
 
 
