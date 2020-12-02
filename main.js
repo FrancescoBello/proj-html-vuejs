@@ -10,5 +10,11 @@ var app = new Vue ({
       "Reservation",
       "f07a",
     ],
+    copyrights : ["Copyright 2012 - 2019 Avada |",
+     " All Rights Reserved |",
+     " Powered by WordPress |",
+     " ThemeFusion"
+   ],
+
   },
 });

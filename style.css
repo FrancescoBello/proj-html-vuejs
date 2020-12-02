@@ -535,8 +535,14 @@ main{
   font-size: 18px;
   margin-top: 30px;
 }
-
 .social{
+  margin-top: 90px;
+  display: inline-block;
+  margin-left: 40%;
+  height: 35px;
+
+}
+.fb{
   width: 30px;
   height: 30px;
   border-radius: 20px;
@@ -546,9 +552,54 @@ main{
   padding: 8px 10px;
   color: black;
   text-decoration: none;
+}
+.tw{
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 40%;
+  padding: 8px 10px;
+  color: black;
+  text-decoration: none;
+}
+.ig{
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 40%;
+  padding: 8px 10px;
+  color: black;
+  text-decoration: none;
+}
+.yt{
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 40%;
+  padding: 8px 10px;
+  color: black;
+  text-decoration: none;
+}
+.lk{
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 40%;
+  padding: 10px 10px;
 
 }
-.fb .tw .ig .yt .in {
+.social a{
+  color: black;
+  text-decoration: none;
+}
+/*.fb .tw .ig .yt .in {
   display: inline-block;
 
 margin-top: 400px;
@@ -557,7 +608,21 @@ color: black;
 
 
 }
+*/
+footer{
+  background-color: black;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  color: white;
 
-
-
-.
+}
+footer ul{
+  display: inline-block;
+}
+footer li{
+  display: inline-block;
+   font-size: 13px;
+   margin-top: 50px;
+   vertical-align: middle;
+}
