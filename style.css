@@ -65,6 +65,12 @@ header .left{
     width: 40%;
     color: white;
 }
+.left img{
+  float: left;
+  width: 130px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
 .left h5 {
   text-transform: uppercase;
   margin-top: 200px;

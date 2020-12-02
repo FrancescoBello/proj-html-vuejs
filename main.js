@@ -15,6 +15,7 @@ var app = new Vue ({
      " Powered by WordPress |",
      " ThemeFusion"
    ],
+   loghi : ["avada-restaurant-logo-new"],
 
   },
 });
