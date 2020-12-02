@@ -231,23 +231,30 @@ main{
   width: 100%;
   height: 100%;
 }
-.reviews h1{
+.lora{
   font-family: Lora;
   text-align: center;
   vertical-align: middle;
+  padding-top: 50px;
+  color: black;
 }
 
 .review1 {
-
-  margin-left: 10%;
+  height: 550px;
+  width: 80%;
+  margin-left: 11%;
   margin-right: 10%;
   margin-top: 100px;
+  background-image: url("img/hover-card1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
 }
 .review1 img{
   width: 100%;
 }
 .review2{
-  height: 450px;
+  height: 550px;
   margin-left: 12%;
   width: 37%;
   display: inline-block;
@@ -258,7 +265,7 @@ main{
 
 
 .review3{
-  height: 450px;
+  height: 550px;
   margin-right: 12%;
   width: 37%;
   float: right;
@@ -275,6 +282,40 @@ main{
 
 
 
+
+.reviews h5{
+  color: #bcbcbc;
+  margin-left: 80px;
+  margin-top: 80px;
+  font-size: 14px;
+}
+.journal{
+  color: white;
+  margin-left: 8px;
+}
+.reviews .fa-star{
+  color: white;
+  margin-top: 50px;
+}
+.str{
+  margin-left: 80px;
+}
+.reviews p{
+  color: white;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+.reviews button{
+  border: 0.5px solid white;
+  background-color: Transparent;
+    background-repeat:no-repeat;
+  color: white;
+  padding: 10px 30px;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+
 .dishes{
   margin-top: 70px;
   width: 100%;
@@ -284,52 +325,238 @@ main{
   background-size: cover;
 }
 .price {
-  margin-bottom: 15px;
-  color: white;
+  padding-top: 270px;
   text-align:center;
+  text-decoration: none;
 }
 
 
+.price a{
+  text-decoration: none;
+  color: white;
+}
+
+.info{
+  height: 600px;
+  width:80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-image: url("img/hover-card2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.delivery{
+  height: 650px;
+  width: 100%;
+  margin-top: 80px;
+
+}
+.delivery img{
+  float: left;
+  width: 60%;
+  height: 100%;
+}
+.delivery-info{
+  width: 40%;
+  background-color: black;
+  float: right;
+  height: 650px;
+}
+.delivery h5{
+  color: #bcbcbc;
+  margin-left: 80px;
+  margin-top: 100px;
+  font-size: 14px;
+}
+.delivery h1{
+  font-size: 50px;
+  margin-top: 40px;
+  color: white;
+  margin-left: 80px;
+  margin-right: 50px;
+}
+.delivery p{
+  color: #bcbcbc;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 40px;
+  font-size: 18px;
+
+}
+
+.delivery  button{
+  border: 0.5px solid white;
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  margin-left: 80px;
+    margin-top: 60px;
+}
+
+.delivery  button:hover{
+  color: black;
+  background-color: white;
+}
+
+ .menu{
+   height: 900px;
+   width: 100%;
+   margin-top: 10px;
+ }
+.starter{
+  margin-left: 5%;
+  width: 30%;
+  height: 840px;
+  background-color: #e8e8e8;
+  display: inline-block;
+/*  margin-bottom: 100px;
+*/padding-top: 50px;
+}
+.main{
+  color: white;
+  width: 30%;
+  height: 840px;
+  background-color: orange;
+  display: inline-block;
+  background-image: linear-gradient(rgb(3, 3, 3) 27%, rgba(3, 3, 3, 0.2) 100%), url("img/misc22x.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+/*  margin-bottom: 150px;
+*/ padding-top: 20px;
+}
+.dessert{
+  width: 30%;
+  height: 850px;
+/*  margin-bottom: 50px;
+  */padding-top: 50px;
+  margin-right: 3%;
+  background-color: #e8e8e8;
+  display: inline-block;
+}
+.menu h1 {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.plate{
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-top: 40px;
+  font-size: 25px;
+  display: inline-block;
+}
+.prices{
+  display: inline-block;
+  font-size: 15px;
+
+}
+
+.ingredient{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.braised-abalone{
+  width: 100%;
+  height: 700px;
+  background-image: url("img/hero42x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.braisedBox{
+  width: 350px;
+  height: 80%;
+  padding-top: 80px;
+  margin-left: 80px;
+  background-color: black;
+}
+
+.braisedBox h1{
+  margin-top: 30px;
+  font-size: 40px;
+  margin-left: 50px;
+  color: white;
+  display: inline-block;
+}
+.braisedBox h6{
+  color: #bcbcbc;
+  display: inline-block;
+  margin-left: 300px;
+}
+.braisedBox p{
+  color: #bcbcbc;
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-right: 30px;
+  font-size: 18px;
+}
 
 
+.braisedBox button{
+  border: 0.5px solid white;
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.braisedBox  button:hover{
+  color: black;
+  background-color: white;
+}
+.restaurant-info{
+  margin-top: 50px;
+  width: 100%;
+  height: 700px;
+  background-image: url("img/footer2x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo{
+  height: 300px;
+  width: 300px;
+
+  margin-left: 40%;
+}
+.logo img{
+  width: 100%;
+  margin-top: 200px;
+}
+.restaurant-info p {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.social{
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 40%;
+  padding: 8px 10px;
+  color: black;
+  text-decoration: none;
+
+}
+.fb .tw .ig .yt .in {
+  display: inline-block;
+
+margin-top: 400px;
+text-decoration: none;
+color: black;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
