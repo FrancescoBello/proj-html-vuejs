@@ -259,6 +259,7 @@ main{
 .review1 img{
   width: 100%;
 }
+
 .review2{
   height: 550px;
   margin-left: 12%;
@@ -297,7 +298,8 @@ main{
 }
 .journal{
   color: white;
-  margin-left: 8px;
+  margin-left: 80px;
+  margin-top: 30px;
 }
 .reviews .fa-star{
   color: white;
@@ -309,7 +311,9 @@ main{
 .reviews p{
   color: white;
   margin-left: 80px;
+  margin-right: 50px;
   margin-top: 40px;
+  font-size: 18px;
 }
 .reviews button{
   border: 0.5px solid white;
@@ -320,7 +324,10 @@ main{
   margin-left: 80px;
   margin-top: 40px;
 }
-
+.reviews button:hover{
+  background-color: black;
+  border-color: black;
+}
 
 .dishes{
   margin-top: 70px;
@@ -468,6 +475,7 @@ main{
 }
 
 .braised-abalone{
+  margin-top: 40px;
   width: 100%;
   height: 700px;
   background-image: url("img/hero42x.jpg");
@@ -542,68 +550,72 @@ main{
   margin-top: 30px;
 }
 .social{
-  margin-top: 90px;
+  margin-top: 190px;
+ height: 35px;
+  width: 30%;
+ margin-left: 45%;
   display: inline-block;
-  margin-left: 40%;
-  height: 35px;
-
 }
 .fb{
-  width: 30px;
-  height: 30px;
-  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
   background-color: white;
   display: inline-block;
-  margin-left: 40%;
-  padding: 8px 10px;
+  padding: 20px 20px;
   color: black;
   text-decoration: none;
 }
 .tw{
-  width: 30px;
-  height: 30px;
-  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
   background-color: white;
-  display: inline-block;
-  margin-left: 40%;
-  padding: 8px 10px;
+  padding: 20px 20px;
   color: black;
   text-decoration: none;
+    display: inline-block;
 }
 .ig{
-  width: 30px;
-  height: 30px;
-  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
   background-color: white;
-  display: inline-block;
-  margin-left: 40%;
-  padding: 8px 10px;
+  padding: 20px 20px;
   color: black;
   text-decoration: none;
+    display: inline-block;
 }
 .yt{
-  width: 30px;
-  height: 30px;
-  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
   background-color: white;
-  display: inline-block;
-  margin-left: 40%;
-  padding: 8px 10px;
+  padding: 20px 20px;
   color: black;
   text-decoration: none;
+    display: inline-block;
 }
 .lk{
-  width: 30px;
-  height: 30px;
-  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
   background-color: white;
-  margin-left: 40%;
-  padding: 10px 10px;
+  padding: 20px 20px;
+  display: inline-block;
+  text-align: center;
 
 }
-.social a{
+.social a i{
   color: black;
   text-decoration: none;
+  font-size: 27px;
+  text-align: center;
+
+
+}
+.fb:hover, .tw:hover, .yt:hover, .ig:hover, .lk:hover{
+  background-color: #46494a;
 }
 /*.fb .tw .ig .yt .in {
   display: inline-block;

@@ -8,7 +8,6 @@ var app = new Vue ({
       "Takeout",
       "Bulletin",
       "Reservation",
-      "f07a",
     ],
     copyrights : ["Copyright 2012 - 2019 Avada |",
      " All Rights Reserved |",
